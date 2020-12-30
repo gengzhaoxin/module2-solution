@@ -18,3 +18,18 @@ h1 {
    float: left;
    border: 1px solid black;
 }
+ @media (min-width: 1200px) {
+  .col-width {
+  width: 25%;
+  }
+  }
+  @media (min-width: 950px) and (max-width: 1199px) {
+  .col-width {
+  width: 50%;
+  }
+  }
+  @media (max-width: 949px) {
+  .col-width {
+  width: 100%;
+  }
+  }
