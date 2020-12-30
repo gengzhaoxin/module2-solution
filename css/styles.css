@@ -4,7 +4,7 @@
    }
 h1 {
    margin-bottom: 15px;
-   background-color: red;
+   background-color: green;
    }
    
  p {
@@ -16,19 +16,19 @@ h1 {
 
 .col-width {
    float: left;
-   border: 1px solid black;
+   border: 1px solid white;
 }
- @media (min-width: 1200px) {
+ @media screen and (min-width: 1200px) {
   .col-width {
   width: 25%;
   }
   }
-  @media (min-width: 950px) and (max-width: 1199px) {
+ @media screen and (min-width: 950px) and (max-width: 1199px) {
   .col-width {
   width: 50%;
   }
   }
-  @media (max-width: 949px) {
+ @media screen and (max-width: 949px) {
   .col-width {
   width: 100%;
   }
