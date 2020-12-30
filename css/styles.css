@@ -21,15 +21,21 @@ h1 {
 
 .menu_1{
  background-color: #D6573C;  
+ float: left;
 }
 
 .menu_2{
  background-color: #D481C6; 
-   
+ float: left;
 }
 
 .menu_3{
    background-color: #D7BA4B;
+   float: left;
+}
+
+.text_1, .text_2, .text_3{
+   clear: left;
 }
 
  @media screen and (min-width: 1200px) {
