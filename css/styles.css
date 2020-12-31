@@ -14,28 +14,52 @@ h1 {
 
 .col-width {
    float: left;
-   border: 5px dotted black;
-   background-color: #E7E7E7;
-   margin: 15px;
+   
+   
+}
+.col-content{
+  width: 90%;
+  margin:auto;
+  border: 3px dashed black;
+  margin-top:5%;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  background-color: #E7E7E7;
 }
 
 .menu_1{
  background-color: #D6573C;  
- float: left;
+ float: right;
+ width: 80px;
+ border-left: 3px dashed black;
+ border-bottom: 3px dashed black;
+ margin: 0px;
+ text-align: center;
+
 }
 
 .menu_2{
  background-color: #D481C6; 
- float: left;
+ float: right;
+ width: 80px;
+ border-left: 3px dashed black;
+ border-bottom: 3px dashed black;
+ margin: 0px;
+ text-align: center;
 }
 
 .menu_3{
    background-color: #D7BA4B;
-   float: left;
+   float: right;
+   width: 80px;
+ border-left: 3px dashed black;
+ border-bottom: 3px dashed black;
+ margin: 0px;
+ text-align: center;
 }
 
 .text_1, .text_2, .text_3{
-   clear: left;
+   clear: right;
 }
 
  @media screen and (min-width: 1200px) {
